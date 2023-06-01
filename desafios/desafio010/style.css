@@ -100,14 +100,25 @@ article>ul{
 section#video{
     background-color: #154b2d;
    padding: 10px;
+    display: block;
     
-    
-    
+    position: relative;
+    margin: auto;
+   height: 416px;
+   
    
 }
 iframe{
-    display: block;
-    margin: auto;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+
+
     
 }
 .imagem{
