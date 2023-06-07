@@ -28,11 +28,27 @@
         .destaque{
             background-color: chartreuse;
         }
+
+        col.cnome{
+            background-color: yellow;
+        }
+        col.cprof{
+            background-color: gray;
+        }
+        col.cgroup{
+            background-color: blue;
+        }
     </style>
     <title>Tabelas</title>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgroup" span="2">
+            <col class="cprof">
+        </colgroup>
+
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -54,7 +70,7 @@
             <td>28</td>
             <td>Programador</td>
         </tr>
-        <tr  class="destaque">
+        <tr>
             <td>Gustavo</td>
             <td>M</td>
             <td>42</td>
