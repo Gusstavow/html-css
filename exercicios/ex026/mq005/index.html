@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        
+        <h1>Meu Site</h1>
+        <span id ="burguer"class="material-icons" onclick="clickMenu()">menu</span>
+
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opcao 1</a></li>
+                <li><a href="#">Opcao 2</a></li>
+                <li><a href="#">Opcao 3</a></li>
+                <li><a href="#">Opcao 4</a></li>
+                <li><a href="#">Opcao 5</a></li>
+            </ul>
+        </menu>
+
+
+
+    </header>
+    <main >
+        <section>
+            <h2>Testando Media Queries</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorum, modi fuga, ipsam
+                praesentium similique unde debitis aut sed minima porro! Odit, optio pariatur. Dolores neque quibusdam
+                labore amet sit.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid possimus harum sed illo expedita
+                tenetur aspernatur animi molestiae, architecto quam doloremque quaerat ut quod nam, quas impedit.
+                Inventore, fuga blanditiis.
+            </p>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ad excepturi blanditiis non similique
+                esse accusamus doloremque obcaecati autem suscipit! Quaerat exercitationem doloribus officiis
+                reprehenderit, consequuntur rem numquam distinctio voluptate.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veniam minima quia consequatur quasi
+                neque maiores, vero amet vitae necessitatibus aliquam temporibus voluptas facere quis nulla suscipit!
+                Modi, obcaecati temporibus!
+            </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero temporibus, illo deleniti quod corporis
+                accusamus iste suscipit quas consequuntur distinctio ipsum molestias sit iusto fugiat quis eius? Totam,
+                voluptate maxime.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum debitis dolores asperiores? Animi
+                accusamus amet sed dolorem? Voluptatibus a sequi recusandae perspiciatis dolorum quibusdam molestias?
+                Voluptatum aliquam cupiditate suscipit praesentium.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. At architecto, consectetur modi voluptates
+                vitae quia laboriosam aliquid esse iusto. Veritatis, rem omnis voluptatem sapiente repellat deleniti
+                nostrum nam numquam soluta?
+
+            </p>
+        </section>
+
+    </main>
+
+    <script>
+        function clickMenu(){
+           
+           if(itens.style.display == 'block'){
+            itens.style.display = 'none'
+
+           }else{
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+
+</html>
