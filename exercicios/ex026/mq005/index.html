@@ -7,11 +7,12 @@
     <title>Media Query</title>
 
     <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
 
     <header>
         
@@ -76,6 +77,15 @@
            }else{
             itens.style.display = 'block'
            }
+        }
+
+        function mudouTamanho(){
+            if(window.innerWidth >=768){
+                itens.style.display = 'block'
+                
+            }else{
+                itens.style.display = 'none'
+            }
         }
     </script>
 </body>
